@@ -34,6 +34,8 @@ my_label = Label(root, text = "Hello, Welcome to Clifford's Youtube Downloader "
 my_label2 = Label(root, text= "Please Paste the URL from Youtube.com").pack()
 gui_link = Entry(root, width = 50, fg = 'black' )
 
+#Button and Entry Field
+
 def user_click():
     url_string = gui_link.get()
     # print(gui_link.get())
@@ -43,7 +45,7 @@ def user_click():
 mybutton = Button(root, text = "Begin Download", command = user_click, padx = 15, pady = 10).pack()
 
 
-#Button and Entry Field
+
 
 
 gui_link.pack()
