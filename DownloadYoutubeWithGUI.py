@@ -1,8 +1,10 @@
 #start
 from tkinter import *
 from tkinter import messagebox
+
 root = Tk()
 
+#Get and Download Youtube Video
 def get_ytube(url_string):
     from pytube import YouTube
     link = url_string
@@ -23,8 +25,8 @@ def get_ytube(url_string):
 #Title, Icon, Size 
 
 root.title("Youtube Downloader")
-root.iconbitmap('Dload.ico')
-root.geometry("700x350")
+root.iconbitmap(r'Dload.ico')
+root.geometry("700x400")
 
 #Create Label for Window
 
