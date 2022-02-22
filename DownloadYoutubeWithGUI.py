@@ -1,7 +1,6 @@
 #start
 from tkinter import *
 from tkinter import messagebox
-from webbrowser import get
 root = Tk()
 
 def get_ytube(url_string):
@@ -38,7 +37,7 @@ def user_click():
     # print(gui_link.get())
     messagebox.showinfo("Finishing Touches", "Thanks for waiting, the program is complete")
     get_ytube(url_string)
-    
+
 mybutton = Button(root, text = "Begin Download", command = user_click, padx = 15, pady = 10).pack()
 
 
