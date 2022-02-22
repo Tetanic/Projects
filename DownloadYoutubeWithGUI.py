@@ -14,13 +14,13 @@ root.geometry("700x350")
 
 my_label = Label(root, text = "Hello, Welcome to Clifford's Youtube Downloader ").pack()
 my_label2 = Label(root, text= "Please Paste the URL from Youtube.com").pack()
-final_label = Label(root, )
+gui_link = Entry(root, width = 50, fg = 'black' ).pack()
 
 #Button and Entry Field
 
 def user_click():
     messagebox.showinfo("Finishing Touches", "Thanks for waiting, the program is complete")
-gui_link = Entry(root, width = 50, fg = 'black' ).pack()
+
 mybutton = Button(root, text = "Begin Download", command = user_click, padx = 15, pady = 10).pack()
 
 root.mainloop()
